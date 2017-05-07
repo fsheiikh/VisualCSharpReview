@@ -1,0 +1,6 @@
+C:\Users\MainUser\Desktop\DCCCD\C#\05_Events_Delegates\Redux\DemoBankEvent Solution\DemoBankEvent\bin\Debug\DemoBankEvent.exe.config
+C:\Users\MainUser\Desktop\DCCCD\C#\05_Events_Delegates\Redux\DemoBankEvent Solution\DemoBankEvent\bin\Debug\DemoBankEvent.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\05_Events_Delegates\Redux\DemoBankEvent Solution\DemoBankEvent\bin\Debug\DemoBankEvent.pdb
+C:\Users\MainUser\Desktop\DCCCD\C#\05_Events_Delegates\Redux\DemoBankEvent Solution\DemoBankEvent\obj\Debug\DemoBankEvent.csprojResolveAssemblyReference.cache
+C:\Users\MainUser\Desktop\DCCCD\C#\05_Events_Delegates\Redux\DemoBankEvent Solution\DemoBankEvent\obj\Debug\DemoBankEvent.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\05_Events_Delegates\Redux\DemoBankEvent Solution\DemoBankEvent\obj\Debug\DemoBankEvent.pdb

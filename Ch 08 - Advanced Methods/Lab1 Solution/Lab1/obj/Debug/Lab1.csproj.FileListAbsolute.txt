@@ -1,0 +1,6 @@
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Lab1 Solution\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Lab1 Solution\Lab1\bin\Debug\Lab1.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Lab1 Solution\Lab1\bin\Debug\Lab1.pdb
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Lab1 Solution\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Lab1 Solution\Lab1\obj\Debug\Lab1.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Lab1 Solution\Lab1\obj\Debug\Lab1.pdb

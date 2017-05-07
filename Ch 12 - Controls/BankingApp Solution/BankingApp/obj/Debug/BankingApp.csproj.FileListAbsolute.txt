@@ -1,0 +1,18 @@
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\BankingApp Solution\BankingApp\bin\Debug\BankingApp.exe.config
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\BankingApp Solution\BankingApp\bin\Debug\BankingApp.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\BankingApp Solution\BankingApp\bin\Debug\BankingApp.pdb
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\BankingApp Solution\BankingApp\obj\Debug\BankingApp.csprojResolveAssemblyReference.cache
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\BankingApp Solution\BankingApp\obj\Debug\BankingApp.Bank.resources
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\BankingApp Solution\BankingApp\obj\Debug\BankingApp.Properties.Resources.resources
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\BankingApp Solution\BankingApp\obj\Debug\BankingApp.csproj.GenerateResource.Cache
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\BankingApp Solution\BankingApp\obj\Debug\BankingApp.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\BankingApp Solution\BankingApp\obj\Debug\BankingApp.pdb
+C:\Users\MainUser\Desktop\DCCCD\C#\04-Controls\BankingApp Solution\BankingApp\bin\Debug\BankingApp.exe.config
+C:\Users\MainUser\Desktop\DCCCD\C#\04-Controls\BankingApp Solution\BankingApp\obj\Debug\BankingApp.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\04-Controls\BankingApp Solution\BankingApp\obj\Debug\BankingApp.pdb
+C:\Users\MainUser\Desktop\DCCCD\C#\04-Controls\BankingApp Solution\BankingApp\obj\Debug\BankingApp.csprojResolveAssemblyReference.cache
+C:\Users\MainUser\Desktop\DCCCD\C#\04-Controls\BankingApp Solution\BankingApp\obj\Debug\BankingApp.Bank.resources
+C:\Users\MainUser\Desktop\DCCCD\C#\04-Controls\BankingApp Solution\BankingApp\obj\Debug\BankingApp.Properties.Resources.resources
+C:\Users\MainUser\Desktop\DCCCD\C#\04-Controls\BankingApp Solution\BankingApp\obj\Debug\BankingApp.csproj.GenerateResource.Cache
+C:\Users\MainUser\Desktop\DCCCD\C#\04-Controls\BankingApp Solution\BankingApp\bin\Debug\BankingApp.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\04-Controls\BankingApp Solution\BankingApp\bin\Debug\BankingApp.pdb

@@ -1,0 +1,6 @@
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Activity1 Solution\Activity1\bin\Debug\Activity1.exe.config
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Activity1 Solution\Activity1\bin\Debug\Activity1.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Activity1 Solution\Activity1\bin\Debug\Activity1.pdb
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Activity1 Solution\Activity1\obj\Debug\Activity1.csprojResolveAssemblyReference.cache
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Activity1 Solution\Activity1\obj\Debug\Activity1.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\01 - Advanced Methods\Activity1 Solution\Activity1\obj\Debug\Activity1.pdb

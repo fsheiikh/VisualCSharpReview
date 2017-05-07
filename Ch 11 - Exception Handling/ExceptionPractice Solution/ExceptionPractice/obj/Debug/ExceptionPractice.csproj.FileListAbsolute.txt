@@ -1,0 +1,6 @@
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\ExceptionPractice Solution\ExceptionPractice\bin\Debug\ExceptionPractice.exe.config
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\ExceptionPractice Solution\ExceptionPractice\obj\Debug\ExceptionPractice.csprojResolveAssemblyReference.cache
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\ExceptionPractice Solution\ExceptionPractice\bin\Debug\ExceptionPractice.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\ExceptionPractice Solution\ExceptionPractice\bin\Debug\ExceptionPractice.pdb
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\ExceptionPractice Solution\ExceptionPractice\obj\Debug\ExceptionPractice.exe
+C:\Users\MainUser\Desktop\DCCCD\C#\02 - Exception Handling\ExceptionPractice Solution\ExceptionPractice\obj\Debug\ExceptionPractice.pdb
