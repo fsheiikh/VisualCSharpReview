@@ -9,6 +9,7 @@ namespace BankingApp
     //the closeMonth method.They also override the ToString method to return a string like,
     //“Savings account #4 has a balance of $4235.03”
 {
+    [Serializable]
     class Savings : Account
     {
         public bool seniorCitizen;

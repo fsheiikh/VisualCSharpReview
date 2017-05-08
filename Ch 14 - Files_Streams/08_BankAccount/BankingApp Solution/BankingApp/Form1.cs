@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 //Farhan Sheikh; 04/09/2017
 namespace BankingApp
@@ -15,6 +16,17 @@ namespace BankingApp
     {
         int count = 0; //this is the number we use to keep count of account numbers
         Account[] accounts = new Account[20]; //initilize an array of 20 aaounts (0-19 : indexes)
+
+        ///////////////////////////////////////////////////////////////////////////
+        const string DELIM = ",";
+        const string FILENAME = @"C:\Users\MainUser\Desktop\DCCCD\C#\Ch 14 - Files_Streams\BankInfo1.txt";
+
+        int AccountId;
+        Decimal AccountBalance;
+
+
+        //static FileStream outFile = new FileStream(FILENAME, FileMode.Create, FileAccess.Write);
+        ////////////////////////////////////////////////////////////////////////////////
         public Bank()
         {
             InitializeComponent();
@@ -95,6 +107,7 @@ namespace BankingApp
         private void btnCreateAccount_Click(object sender, EventArgs e)
         {
             label3.Text = String.Empty;
+            
 
             if (count < 20)
             {
@@ -110,10 +123,6 @@ namespace BankingApp
 
 
                     lblMessage.Text = accounts[count - 1].ToString();
-
-                    //next two lines good for debugging since theu display all accounts
-                    //label3.Text += String.Format("Account #{0} has {1} in it \n",
-                    // accounts[count - 1].getID(), accounts[count - 1].accountBalance);
 
                     txtAccount.Text = accounts[count - 1].getID().ToString();
                 }
@@ -133,9 +142,13 @@ namespace BankingApp
                 label3.Text = "Too Many Accounts";
             }
 
-            
-        
-            
+            StreamWriter writer = new StreamWriter(FILENAME, true);
+
+            AccountId = accounts[count - 1].getID();
+            AccountBalance = accounts[count - 1].accountBalance;
+
+            writer.WriteLine(AccountId + DELIM + AccountBalance);
+            writer.Close();
         }
 
         private void txtAccount_TextChanged(object sender, EventArgs e)
@@ -158,6 +171,7 @@ namespace BankingApp
 
         private void btnReport_Click(object sender, EventArgs e)
         {
+            lblMessage.Text = "";
             lblMessage.ForeColor = System.Drawing.Color.Green;
 
             foreach (var acct in accounts)
@@ -169,6 +183,36 @@ namespace BankingApp
                 }
             }
 
+        }
+
+        private void btnUpdateFromRecords_Click(object sender, EventArgs e)//updates the accounts and also is able to display 
+        {
+            string recordIn;
+            string[] fields;
+            int numberOfRecords = 0;
+            //FileStream file = new FileStream(FILENAME, FileMode.Open, FileAccess.Read);
+            StreamReader reader = new StreamReader(FILENAME, true);
+            try
+            {
+                while ((recordIn = reader.ReadLine()) != null) //got from microsoft docs -> msdn.microsoft.com/en-us/library/aa287535(v=vs.71).aspx
+                {
+                    //recordIn = reader.ReadLine();
+                    fields = recordIn.Split(',');
+                    //lblMessage.Text += String.Format("\n ID : {0}, Balance: {1} \n", fields[0], fields[1]);
+                    numberOfRecords += 1;
+                    lblMessage.Text = String.Format("Loaded {0} Records", numberOfRecords);
+                    var newTempAcct = new tempAccount(Convert.ToInt32(fields[0]), Convert.ToDecimal(fields[1]));
+                    accounts[count] = newTempAcct;
+                    count += 1;
+                }
+
+            }
+            catch (NullReferenceException)
+            {
+                label1.Text = "You have viewed All records";
+                //button1.Enabled = false;
+            }
+            reader.Close();
         }
     }
 

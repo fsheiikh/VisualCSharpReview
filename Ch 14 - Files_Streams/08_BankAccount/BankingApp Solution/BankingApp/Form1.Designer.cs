@@ -13,6 +13,9 @@
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
+            //writer.Close();
+            //outFile.Close();
+            //reader.Close();
             if (disposing && (components != null))
             {
                 components.Dispose();
@@ -48,6 +51,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnCloseMonth = new System.Windows.Forms.Button();
             this.btnReport = new System.Windows.Forms.Button();
+            this.btnUpdateFromRecords = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -251,11 +255,22 @@
             this.btnReport.UseVisualStyleBackColor = true;
             this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
+            // btnUpdateFromRecords
+            // 
+            this.btnUpdateFromRecords.Location = new System.Drawing.Point(59, 51);
+            this.btnUpdateFromRecords.Name = "btnUpdateFromRecords";
+            this.btnUpdateFromRecords.Size = new System.Drawing.Size(186, 23);
+            this.btnUpdateFromRecords.TabIndex = 20;
+            this.btnUpdateFromRecords.Text = "Update from Bank Records";
+            this.btnUpdateFromRecords.UseVisualStyleBackColor = true;
+            this.btnUpdateFromRecords.Click += new System.EventHandler(this.btnUpdateFromRecords_Click);
+            // 
             // Bank
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(289, 615);
+            this.Controls.Add(this.btnUpdateFromRecords);
             this.Controls.Add(this.btnReport);
             this.Controls.Add(this.btnCloseMonth);
             this.Controls.Add(this.groupBox2);
@@ -304,6 +319,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnCloseMonth;
         private System.Windows.Forms.Button btnReport;
+        private System.Windows.Forms.Button btnUpdateFromRecords;
     }
 }
 

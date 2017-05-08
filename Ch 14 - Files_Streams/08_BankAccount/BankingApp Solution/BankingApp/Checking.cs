@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankingApp
 {
+    [Serializable]
     class Checking : Account
     {
         public bool collegeStudent;

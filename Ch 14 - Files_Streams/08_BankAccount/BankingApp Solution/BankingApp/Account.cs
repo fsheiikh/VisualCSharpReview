@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BankingApp
-{
+{   
+    [Serializable]
     abstract class Account
     {
         protected int accountID;
@@ -65,6 +66,18 @@ namespace BankingApp
         public override string ToString()
         {
             return String.Format("Account#{0} has a balance of ${1}", accountID, accountBalance);
+        }
+    }
+
+    class tempAccount : Account
+    {
+        public tempAccount(int number, Decimal startingBalance) : base(number, startingBalance)
+        {
+
+        }
+        public override void closeMonth()
+        {
+           
         }
     }
 
